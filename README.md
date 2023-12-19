@@ -20,18 +20,18 @@ Implementação de um desafio de uma aplicação responsiva com consumo de API R
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Docker](https://www.docker.com/)
-- [MongoDB](https://www.mongodb.com/)
+- [Mongodb](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.coma/)
-- [Node](https://nodejs.org/)
+- [Nodejs](https://nodejs.org/)
 - [Nextjs](https://nextjs.org/)
-- [ReactJS](https://reactjs.org/)
+- [Reactjs](https://reactjs.org/)
 - [Sass](https://sass-lang.com/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Yarn](https://yarnpkg.com/)
 
 ### Como executar?
 
-> obs: Necessário possuir Nodejs e Docker em sua máquina.
+> obs: Necessário possuir <a href="https://nodejs.org/" target="_blank">Nodejs</a>, <a href="https://www.docker.com/" target="_blank">Docker</a>  e <a href="https://docs.docker.com/compose/" target="_blank">Docker Compose</a> em sua máquina.
 
 1. Instalar as dependências do projeto com `yarn install` ou npm `install`
 2. Criar um arquivo `.env` na raiz do projeto
