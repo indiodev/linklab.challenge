@@ -19,6 +19,9 @@ Implementação de um desafio de uma aplicação responsiva com consumo de API R
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
+- [Docker](https://www.docker.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.coma/)
 - [Node](https://nodejs.org/)
 - [Nextjs](https://nextjs.org/)
 - [ReactJS](https://reactjs.org/)
