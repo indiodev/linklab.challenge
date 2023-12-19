@@ -1,0 +1,63 @@
+@import '@/styles/variables';
+@import '@/styles/utils';
+
+.header-root{
+  background-color: $bg-purple;
+  display: flex;
+  align-items: flex-start;
+  height: 31.5rem;
+  position: relative;
+}
+
+.header-container {
+  padding-top: 3.625rem;
+  padding-bottom: 1.75rem;
+  @extend .container;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  flex: 1;
+}
+
+.nav-menu{
+  display: flex;
+  gap: 2.1875rem;
+
+}
+
+.menu-item {
+  list-style-type: none;
+  
+  a{
+    font-size: 0.9375rem;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.link-button{
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.09);
+  color: #ffffff;
+  padding: 12px 18px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.label{
+  position: absolute;
+  left: 47px;
+  bottom: 34px;
+}
+
+.points{
+  position: absolute;
+  right: -40px;
+  top: -20px;
+}

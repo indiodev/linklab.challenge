@@ -1,0 +1,71 @@
+@import "../styles/utils";
+
+.pageRoot{
+  @extend .container;
+  position: relative;
+}
+
+.hero{
+  flex: 1;
+  display: flex;
+  z-index: 999;
+  position: absolute;
+  top: -19.3125rem;
+}
+
+.heroCard{
+  display: flex;
+  flex-direction: column;
+  gap: 13.8125rem;  
+  flex: 1;
+  // top: -309px;
+  // position: relative;
+  height: 31.8125rem;
+  background-color: #F9F0EE;
+  padding: 91px 63px 61px 71px;
+
+  h2, p {
+    color: #323351;
+  }
+
+  h2{
+    font-size: 1.125rem;
+    text-transform: uppercase;
+  }
+
+  p{
+    font-size: 2.25rem;
+  }
+}
+
+.heroCardHighlight{
+  @extend .heroCard;
+  background-color: #F5643D;
+  height: 33.8125rem;
+
+  h2, p {
+    color: #ffffff;
+  }
+}
+
+
+.product{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4.0625rem;
+  padding-top: 19.75rem;
+  padding-bottom: 7.375rem;
+}
+
+.title{
+  color: #323351;
+}
+
+.productList{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(23.5rem, 1fr));
+  // align-items: center;
+  // justify-content: space-between;
+  border: 2px solid red;
+}
