@@ -14,6 +14,7 @@
 
 .product-list{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(23.5rem, 1fr));
-  // border: 2px solid red;
+  grid-template-columns: repeat(auto-fit, minmax(19.875rem, 1fr));
+  place-items: center;
+  gap: 4rem;
 }

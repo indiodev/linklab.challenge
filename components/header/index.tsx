@@ -47,11 +47,11 @@ export default function Header() {
 						height={15}
 						alt="Streamline Image Icon"
 					/>
-					Orçamento
+					<span>Orçamento</span>
 				</Link>
 			</section>
 
-			<Image
+			{/* <Image
 				src={'./label.svg'}
 				width={186}
 				height={186}
@@ -65,7 +65,7 @@ export default function Header() {
 				height={343}
 				alt="Label image"
 				className="points"
-			/>
+			/> */}
 		</header>
 	);
 }

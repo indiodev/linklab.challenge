@@ -10,3 +10,4 @@
 4. Subir o banco em um container docker com `docker compose up -d` ou `docker-compose up -d`;
 5. Popular a base com os produtos com `yarn seed` ou `npm run seed`
 6. Iniciar o projeto com `yarn dev` ou `npm run dev`
+

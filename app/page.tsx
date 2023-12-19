@@ -1,11 +1,10 @@
 import Products from '@/components/products';
-import Image from 'next/image';
 import styles from './page.module.scss';
 
 export default async function Home() {
 	return (
 		<section className={styles.pageRoot}>
-			<section className={styles.hero}>
+			{/* <section className={styles.hero}>
 				<div className={styles.heroCard}>
 					<h2>Produtos</h2>
 
@@ -45,7 +44,7 @@ export default async function Home() {
 						<p>Ferramentas e utensílios</p>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 			<Products />
 		</section>
