@@ -33,6 +33,20 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 > obs: Necessário possuir <a href="https://nodejs.org/" target="_blank">Nodejs</a>, <a href="https://www.docker.com/" target="_blank">Docker</a>  e <a href="https://docs.docker.com/compose/" target="_blank">Docker Compose</a> em sua máquina.
 
+Usuários Ubuntu/Linux podem configurar o Docker e o Docker Compose através do <a href="https://docs.docker.com/engine/install/">Docker Engine</a> com as seguintes instruções.
+```
+$ curl -fsSL https://get.docker.com -o get-docker.sh
+$ sudo sh get-docker.sh
+$ sudo groupadd docker
+$ sudo usermod -aG docker $USER 
+$ sudo reboot // para reiniciar sua máquina
+
+```
+Para outras distros, Mac ou Windows <a href="https://docs.docker.com/engine/install/" target="_blank">clique aqui para ver mais</a>.
+
+Após instalar o Docker e o Docker compose ou o Docker engine, prossiga com os seguintes passos, abaixo.
+
+
 1. Instalar as dependências do projeto com `yarn install` ou npm `install`
 2. Criar um arquivo `.env` na raiz do projeto
 3. Copiar conteúdo de `.env.example` e colar no `.env` 
