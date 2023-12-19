@@ -54,6 +54,8 @@ Após instalar o Docker e o Docker compose ou o Docker engine, prossiga com os s
 5. Popular a base com os produtos com `yarn seed` ou `npm run seed`
 6. Iniciar o projeto com `yarn dev` ou `npm run dev`
 
+Pronto! A aplicação estará disponível em `http://localhost:3000` enquanto a API restará disponível a partir da rota `/api/products` na mesma aplicação, ou seja, no seguinte endereço `http://localhost:3000/api/products`
+
 ### :memo: Licença
 
 Esse projeto está sob a [licença MIT](./LICENSE).
