@@ -48,6 +48,10 @@
   display: flex;
   align-items: center;
   gap: 0.3125rem;
+
+  &:hover{
+    background-color: #F5643D;
+  }
 }
 
 .label{

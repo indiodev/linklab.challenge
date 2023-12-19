@@ -48,24 +48,3 @@
   }
 }
 
-
-.product{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 4.0625rem;
-  padding-top: 19.75rem;
-  padding-bottom: 7.375rem;
-}
-
-.title{
-  color: #323351;
-}
-
-.productList{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(23.5rem, 1fr));
-  // align-items: center;
-  // justify-content: space-between;
-  border: 2px solid red;
-}
