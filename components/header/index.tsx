@@ -51,15 +51,16 @@ export default function Header() {
 				</Link>
 			</section>
 
+				
 			{/* <Image
 				src={'./label.svg'}
 				width={186}
 				height={186}
 				alt="Label image"
 				className="label"
-			/>
+			/> */}
 
-			<Image
+			{/* <Image
 				src={'./points.svg'}
 				width={311}
 				height={343}

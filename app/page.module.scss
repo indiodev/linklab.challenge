@@ -1,48 +1,4 @@
-@import "../styles/utils";
-
 .pageRoot{
-  @extend .container;
-  position: relative;
-}
-
-.hero{
-  flex: 1;
-  display: flex;
-  z-index: 999;
-  position: absolute;
-  top: -19.3125rem;
-}
-
-.heroCard{
   display: flex;
   flex-direction: column;
-  gap: 13.8125rem;  
-  flex: 1;
-  height: 31.8125rem;
-  background-color: #F9F0EE;
-  padding: 91px 63px 61px 71px;
-
-  h2, p {
-    color: #323351;
-  }
-
-  h2{
-    font-size: 1.125rem;
-    text-transform: uppercase;
-  }
-
-  p{
-    font-size: 2.25rem;
-  }
 }
-
-.heroCardHighlight{
-  @extend .heroCard;
-  background-color: #F5643D;
-  height: 33.8125rem;
-
-  h2, p {
-    color: #ffffff;
-  }
-}
-

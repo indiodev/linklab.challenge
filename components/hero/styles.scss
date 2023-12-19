@@ -1,0 +1,107 @@
+@import "@/styles/utils";
+
+.hero{
+  @extend .container;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9.375rem, 1fr));
+  z-index: 999;
+  position: relative;
+  top: -19.3125rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    top: 2rem;
+  }
+}
+
+.hero-card-base{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 13.8125rem;  
+  flex: 1;
+  width: 100%;
+  padding: 5.6875rem 3.9375rem 3.8125rem 4.4375rem;
+
+  h2{
+    font-size: 1.125rem;
+  }
+
+
+  @media (max-width: 768px) {
+    align-items: center;
+    justify-content: center;
+
+    h2{
+      display: none;
+    }
+  }
+}
+
+
+.hero-card{
+  height: 31.8125rem;
+  background-color: #F9F0EE;
+
+  h2, p {
+    color: #323351;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 768px) {
+    height: 9.375rem;  
+    // flex-direction: row;
+  }
+}
+
+.hero-car-high-light{
+  background-color: #F5643D;
+  height: 33.8125rem;
+
+  h2, p {
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  h2{
+    font-size: 1.125rem;
+  }
+
+  @media (max-width: 768px) {
+    height: 9.375rem;  
+  }
+
+}
+
+.hero-detail{
+  display: flex;
+  flex-direction: column;
+
+  p{
+    font-size: 2.25rem;
+  }
+
+
+  @media (max-width: 1300px) {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 1.5rem;
+
+    p{
+      text-align: center;
+      font-size: 1.75rem;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+
+    p{
+      font-size: 1.1727rem;
+    }
+  }
+}
